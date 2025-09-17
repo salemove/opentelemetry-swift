@@ -1,15 +1,6 @@
 {
-  "originHash" : "3de5939af405183dedfac5e1e9804476999294ca7ed2b4f0d06d97e21128517c",
+  "originHash" : "173963a417cfb8b5df6906de4a258bf1a77869f671ebb204c40f2a829743ef0f",
   "pins" : [
-    {
-      "identity" : "datacompression",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/mw99/DataCompression",
-      "state" : {
-        "revision" : "16f858982a077451ce3bdbd9144d3073ec85b6e4",
-        "version" : "3.9.0"
-      }
-    },
     {
       "identity" : "opentelemetry-swift-core",
       "kind" : "remoteSourceControl",
@@ -35,15 +26,6 @@
       "state" : {
         "revision" : "3d8596ed08bd13520157f0355e35caed215ffbfa",
         "version" : "1.6.3"
-      }
-    },
-    {
-      "identity" : "swift-metrics",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-metrics.git",
-      "state" : {
-        "revision" : "4c83e1cdf4ba538ef6e43a9bbd0bcc33a0ca46e3",
-        "version" : "2.7.0"
       }
     },
     {
