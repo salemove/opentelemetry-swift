@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name = "OpenTelemetry-Swift-SdkResourceExtension"
+  spec.name = "OpenTelemetry-Swift-SdkResourceExtension-Glia"
   spec.version = "2.1.0"
   spec.summary = "Swift OpenTelemetry Resource Extension"
 
@@ -8,14 +8,11 @@ Pod::Spec.new do |spec|
   spec.license = { :type => "Apache 2.0", :file => "LICENSE" }
   spec.authors = "OpenTelemetry Authors"
 
-  spec.source = { :git => "https://github.com/open-telemetry/opentelemetry-swift.git", :tag => spec.version.to_s }
+  spec.source = { :git => "https://github.com/salemove/opentelemetry-swift.git", :tag => spec.version.to_s }
   spec.source_files = "Sources/Instrumentation/SDKResourceExtension/**/*.swift"
 
   spec.swift_version = "5.10"
   spec.ios.deployment_target = "13.0"
-  spec.tvos.deployment_target = "13.0"
-  spec.watchos.deployment_target = "6.0"
-  spec.visionos.deployment_target = "1.0"
   spec.module_name = "ResourceExtension"
 
   spec.dependency 'OpenTelemetry-Swift-Api', '~> 2.1.1'
