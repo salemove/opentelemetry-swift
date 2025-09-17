@@ -70,9 +70,9 @@ jobs:
           
           # Define all pods to publish
           pods=(
-            "OpenTelemetry-Swift-SdkResourceExtension"
-            "OpenTelemetry-Swift-Protocol-Exporter-Common"
-            "OpenTelemetry-Swift-Protocol-Exporter-Http"
+            "OpenTelemetry-Swift-SdkResourceExtension-Glia"
+            "OpenTelemetry-Swift-Protocol-Exporter-Common-Glia"
+            "OpenTelemetry-Swift-Protocol-Exporter-Http-Glia"
           )
           
           # Process each pod
