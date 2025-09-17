@@ -70,14 +70,9 @@ jobs:
           
           # Define all pods to publish
           pods=(
-            "OpenTelemetry-Swift-BaggagePropagationProcessor"
-            "OpenTelemetry-Swift-Instrumentation-NetworkStatus"
-            "OpenTelemetry-Swift-Instrumentation-URLSession"
             "OpenTelemetry-Swift-SdkResourceExtension"
             "OpenTelemetry-Swift-Protocol-Exporter-Common"
             "OpenTelemetry-Swift-Protocol-Exporter-Http"
-            "OpenTelemetry-Swift-PersistenceExporter"
-            "OpenTelemetry-Swift-StdoutExporter"
           )
           
           # Process each pod
