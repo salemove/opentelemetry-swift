@@ -19,7 +19,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/open-telemetry/opentelemetry-swift-core.git", from: "2.1.0"),
-    .package(url: "https://github.com/apple/swift-protobuf.git", from: "1.29.0"),
+    .package(url: "https://github.com/apple/swift-protobuf.git", from: "1.41.0"),
     .package(url: "https://github.com/apple/swift-log.git", from: "1.6.3"),
   ],
   targets: [
